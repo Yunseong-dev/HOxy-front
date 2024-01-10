@@ -1,0 +1,40 @@
+{
+  "name": "react-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "axios": "^1.6.5",
+    "dayjs": "^1.11.10",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-cookie": "^7.0.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.9.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^7.3.4",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}

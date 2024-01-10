@@ -1,0 +1,113 @@
+*{
+  box-sizing : border-box;
+  
+}
+
+body{
+  background-color: #D6E0F2;
+}
+
+a{
+  all:unset;
+}
+
+div{
+  transition : transform 0.2s;
+}
+
+.logoimg{
+  height: 6rem;
+}
+
+.head-container {
+  width:100%;
+  height:6rem;
+  display:flex;
+  justify-content : space-between;
+  align-items : center;
+  background-color: #9BB1FF;
+  overflow: hidden;
+}
+
+.nav-container{
+  display: flex;
+  margin-right:2rem;
+}
+
+.nav{
+  margin:2rem;
+}
+
+.sos{
+  color: #F44831;
+  font-weight: 800;
+  font-size:1.5rem;
+  font-family: Katibeh;
+}
+
+.a{
+  color: #FEFCFC;
+
+font-family: Pretendard;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.virus-container{
+  display: flex;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+}
+
+.virus1{
+  background-color: #ADCEF8;
+  border-radius: 30px;
+  width: 550px;
+  height: 300px;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+}
+
+.virus2{
+  background-color: #ADCEF8;
+  border-radius: 30px;
+  width: 550px;
+  height: 300px;
+  margin-bottom: 3rem;
+}
+
+.virus3{
+  background-color: #ADCEF8;
+  border-radius: 30px;
+  width: 550px;
+  height: 300px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.virus4{
+  background-color: #ADCEF8;
+  border-radius: 30px;
+  width: 550px;
+  height: 300px;
+}
+
+b{
+  margin-left: 15rem;
+  font-size: 1.7rem;
+}
+
+
+.img{
+  height: 10rem;
+  margin-left: 11.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
